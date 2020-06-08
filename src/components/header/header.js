@@ -4,7 +4,7 @@ import styles from "./header.module.scss"
 
 const Header = () => (
   <header className={styles.header}>
-    <div className="logo">
+    <div className={styles.logo}>
       <Link to="/">Voyager</Link>
     </div>
     <nav>

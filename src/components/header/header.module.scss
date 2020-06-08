@@ -1,4 +1,25 @@
-.header{
-  height:50px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+  height: 100px;
+  font-weight: 600;
+
+  .logo {
+
+  }
+
+  nav {
+    a{
+      margin-left: 30px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+  }
 }
 
