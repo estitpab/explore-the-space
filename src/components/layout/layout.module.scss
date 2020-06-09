@@ -11,4 +11,17 @@ body{
   box-sizing: border-box;
   min-height: calc(100vh - 20px);
   max-width: 1200px;
+  background: url("../../images/noise.jpg") #efeeec;
+  animation: screenNoise .5s steps(10) infinite;
+  background-blend-mode: soft-light;
+}
+
+@keyframes screenNoise {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 100% 100%;
+  }
+
 }
